@@ -3,9 +3,11 @@ import {Greet} from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
+      <Counter></Counter>
       {/* <Greet/>
       <Welcome/> */}
       {/* <Hello/> */}
@@ -19,7 +21,7 @@ function App() {
       <Welcome name="Bruce" heroName="Batman"/>
       <Welcome name="Clark" heroName="Superman"/>
       <Welcome name="Diana" heroName="Wonderwoman"/> */}
-      <Message/>
+      {/* <Message/> */}
     </div>
   );
   
